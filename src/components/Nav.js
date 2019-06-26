@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from 'react-router-bootstrap';
+import '../css/Nav.css'
 
 //Make Link components using prop items' names and paths in a Nav component
 //Uses react-router-bootstrap for routing

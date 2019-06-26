@@ -1,0 +1,16 @@
+/* Navigation Bar */
+.nav {
+    background-color: #8C5346;
+}
+
+/* Navigation Button Text */
+a {
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+a:hover {
+    color: #D9D9D9;
+    transition: 0.5s;
+}
