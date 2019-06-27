@@ -1,6 +1,10 @@
 import React from 'react';
+//Additional coponent imports
+import { LinkContainer } from 'react-router-bootstrap'; 
 import Nav from 'react-bootstrap/Nav';
-import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
+
+//My components
 import '../css/Nav.css'
 
 //Make Link components using prop items' names and paths in a Nav component
@@ -9,11 +13,9 @@ export const Navbar = (props) => {
     return (
         <Nav>
             {props.items.map((item, ind) => (
-                <LinkContainer to={item.path}>
-                    <Nav.Item eventKey={ind}>
-                        <Nav.Link>{item.name}</Nav.Link>
-                    </Nav.Item>
-                </LinkContainer>
+                <Nav.Item>
+                    <Link className="nav-link" to={item.path} eventKey={ind}>{item.name}</Link>
+                </Nav.Item>
             ))}
         </Nav>
     );
