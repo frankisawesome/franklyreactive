@@ -35,7 +35,7 @@ export const Home = () => {
     const projectProps = {
         title: "My Projects",
         subtext: "I've worked on a number of projects for university course work and just hobby. Please check them out, some of them are cool.",
-        buttonLink: "/projects",
+        buttonLink: "",
         buttonText: "Learn More"
     }
     //Render

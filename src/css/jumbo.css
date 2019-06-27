@@ -5,3 +5,7 @@
 .jumbotron p {
     max-width: 800px;
 }
+
+.jumbotron button {
+    display: block;
+}

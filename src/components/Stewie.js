@@ -1,10 +1,10 @@
 import React from 'react';
 import { Jumbo } from './Jumbo'
 
-export const Stuff = (props) => {
+export const Stewie = (props) => {
     return(
         <div>
-            <Jumbo title="Cider." />
+            <Jumbo title="Here Comes Stewie the Cat" />
         </div>
     )
 }

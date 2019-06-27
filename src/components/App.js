@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Navbar } from './Nav';
 import { Home } from './Home';
 import { Proj } from './Projects';
-import { Stuff } from './Stuff';
+import { Stewie } from './Stewie';
 
 //Functional app component
 function App() {
@@ -15,7 +15,7 @@ function App() {
   const navProps = [
     {name: "Frank", path: "/"},
     {name: "Projects", path: "/projects/"},
-    {name: "Stuff", path:"/stuff/"}
+    {name: "Stewie", path:"/stewie/"}
   ]
 
   //Router setup
@@ -25,7 +25,7 @@ function App() {
         <Navbar items={navProps} />
         <Route path="/" exact component={Home} />
         <Route path="/projects/" component={Proj}/>
-        <Route path="/stuff/" component={Stuff}/>
+        <Route path="/stewie/" component={Stewie}/>
       </Router>
     </div>
   );
