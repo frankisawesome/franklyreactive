@@ -1,0 +1,7 @@
+.jumbotron {
+    text-align: left;
+}
+
+.jumbotron p {
+    max-width: 800px;
+}
