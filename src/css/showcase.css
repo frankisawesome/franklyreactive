@@ -6,3 +6,7 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.list-group-item {
+    color: #A6806A;
+}

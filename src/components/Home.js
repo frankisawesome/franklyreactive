@@ -1,6 +1,11 @@
 import React from 'react';
+
+//Components
 import { Jumbo } from './Jumbo';
 import { Showcase } from './Showcase';
+import { Footer } from './Footer';
+
+//Photos
 import myhead from '../images/myhead.jpg';
 import stewie from '../images/stewie.jpg';
 
@@ -27,12 +32,20 @@ export const Home = () => {
         attributes: ["Adopted by Frank at the age of 6 weeks", "Pooped on the floor only once", "Will bite your ass off", "Still an absolute cutie", `Has his own page on my website`]
     }
 
+    const projectProps = {
+        title: "My Projects",
+        subtext: "I've worked on a number of projects for university course work and just hobby. Please check them out, some of them are cool.",
+        buttonLink: "/projects",
+        buttonText: "Learn More"
+    }
     //Render
     return(
         <div>
             <Showcase {...showcaseProps}/>
             <Jumbo {...jumboProps}/>
             <Showcase {...stewieProps} />
+            <Jumbo {...projectProps} />
+            <Footer />
         </div>
     )
 }

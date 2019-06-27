@@ -4,13 +4,13 @@
 }
 
 /* Navigation Button Text */
-a {
+.nav a {
     color: #fff;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-a:hover {
+.nav a:hover {
     color: #D9D9D9;
     transition: 0.5s;
 }
