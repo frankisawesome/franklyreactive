@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbo } from './Jumbo';
 import { Showcase } from './Showcase';
 import myhead from '../images/myhead.jpg'
-export const Home = (props) => {
+export const Home = () => {
     
     //Set of props that can be easily modified to populate the components
     const jumboProps = {
@@ -14,15 +14,15 @@ export const Home = (props) => {
 
     const showcaseProps = {
         image: myhead,
-        heading: "I'm Frank Li",
-        text: "Vice-Chancellor's Scholar at QUT, studying a double degree in Computer Science and Statistics. I'm graduating in 2021. Currently have a GPA of 6.5"
+        heading: "Frank Li",
+        attributes: ["Vice-Chancellor's Scholar at QUT", "CS/Stats - GPA 6.5", "React-Express-Node-Mongo Stack", "Strong stats background", "Interest in Machine Learning/AI"]
     }
 
     //Render
     return(
         <div>
-            <Jumbo {...jumboProps}/>
             <Showcase {...showcaseProps}/>
+            <Jumbo {...jumboProps}/>
         </div>
     )
 }
