@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/showcase.css';
+import '../../css/showcase.css';
 
 //React bootstrap imports
 import Image from 'react-bootstrap/Image';

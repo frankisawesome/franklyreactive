@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 //My components
 import { Navbar } from './Nav';
-import { Home } from './Home';
-import { Proj } from './Projects';
-import { Stewie } from './Stewie';
+import { Home } from './pages/Home';
+import { Proj } from './pages/Projects';
+import { Stewie } from './pages/Stewie';
 import { Footer } from './Footer';
-import { Resume } from './Resume'; 
+import { Resume } from './pages/Resume'; 
 
 //Functional app component
 function App() {

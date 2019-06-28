@@ -1,7 +1,7 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
-import '../css/jumbo.css';
+import '../../css/jumbo.css';
 
 //A jumbontron component with a title, a subtext, and a button.
 export const Jumbo = (props) => {

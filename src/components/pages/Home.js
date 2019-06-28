@@ -1,12 +1,12 @@
 import React from 'react';
 
-//Components
-import { Jumbo } from './Jumbo';
-import { Showcase } from './Showcase';
+//Reusable Components
+import { Jumbo } from '../reusables/Jumbo';
+import { Showcase } from '../reusables/Showcase';
 
 //Photos
-import myhead from '../images/myhead.jpg';
-import stewie from '../images/stewie.jpg';
+import myhead from '../../images/myhead.jpg';
+import stewie from '../../images/stewie.jpg';
 
 
 export const Home = () => {
