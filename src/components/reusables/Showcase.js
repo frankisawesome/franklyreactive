@@ -20,8 +20,8 @@ export const Showcase = (props) => {
                 </Col>
                 <Col xs={12} md={6} className="stuff-right">
                     <ListGroup variant="flush">
-                        {props.attributes.map((attr) => (
-                            <ListGroup.Item>{attr}</ListGroup.Item>
+                        {props.attributes.map((attr, ind) => (
+                            <ListGroup.Item key={ind}>{attr}</ListGroup.Item>
                         ))}
                     </ListGroup>
                 </Col>

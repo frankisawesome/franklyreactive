@@ -13,7 +13,7 @@ export const Navbar = (props) => {
         <Nav>
             {props.items.map((item, ind) => (
                 <Nav.Item>
-                    <Link className="nav-link" to={item.path} eventKey={ind}>{item.name}</Link>
+                    <Link className="nav-link" to={item.path} key={ind}>{item.name}</Link>
                 </Nav.Item>
             ))}
         </Nav>

@@ -9,3 +9,7 @@
 .jumbotron button {
     display: block;
 }
+
+.jumbotron * {
+    margin-top: 1.5rem;
+}
