@@ -3,7 +3,6 @@ import React from 'react';
 //Components
 import { Jumbo } from './Jumbo';
 import { Showcase } from './Showcase';
-import { Footer } from './Footer';
 
 //Photos
 import myhead from '../images/myhead.jpg';
@@ -45,7 +44,6 @@ export const Home = () => {
             <Jumbo {...jumboProps}/>
             <Showcase {...stewieProps} />
             <Jumbo {...projectProps} />
-            <Footer />
         </div>
     )
 }

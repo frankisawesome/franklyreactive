@@ -7,6 +7,8 @@ import { Navbar } from './Nav';
 import { Home } from './Home';
 import { Proj } from './Projects';
 import { Stewie } from './Stewie';
+import { Footer } from './Footer';
+import { Resume } from './Resume'; 
 
 //Functional app component
 function App() {
@@ -15,7 +17,8 @@ function App() {
   const navProps = [
     {name: "Frank", path: "/"},
     {name: "Projects", path: "/projects/"},
-    {name: "Stewie", path:"/stewie/"}
+    {name: "Stewie", path:"/stewie/"},
+    {name: "Resume", path:"/resume/"}
   ]
 
   //Router setup
@@ -26,6 +29,8 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/projects/" component={Proj}/>
         <Route path="/stewie/" component={Stewie}/>
+        <Route path="/resume/" component={Resume}/>
+        <Footer />
       </Router>
     </div>
   );
