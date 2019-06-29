@@ -48,11 +48,9 @@ export const Stewie = (props) => {
     ]
 
     return (
-        <div className="page-container">
-            <div className="content-wrap">
+        <div>
                 <h3>Stewie the cat</h3>
-                <div className="gallery"><Gallery images={images} /></div>
-            </div>
+                <Gallery images={images}/>
         </div>
     )
 }
