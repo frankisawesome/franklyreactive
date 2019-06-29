@@ -10,8 +10,10 @@
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-pdf": "^4.1.0",
+    "react-pdf-js": "^5.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "simple-react-pdf": "^1.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
