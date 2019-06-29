@@ -2,8 +2,8 @@
     text-align: left;
 }
 
-.jumbotron p {
-    max-width: 800px;
+.jumbotron .textblock {
+    max-width: 1000px;
 }
 
 .jumbotron button {

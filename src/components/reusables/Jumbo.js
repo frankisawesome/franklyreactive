@@ -8,7 +8,7 @@ export const Jumbo = (props) => {
     return(
         <Jumbotron>
             <h1>{props.title}</h1>
-            <p>{props.subtext}</p>
+            <div className="textblock"><p>{props.subtext}</p></div>
             <Button variant="outline-secondary" href={props.buttonLink}>{props.buttonText}</Button>
         </Jumbotron>
     )

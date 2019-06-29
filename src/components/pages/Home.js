@@ -42,7 +42,7 @@ const showcaseProps = {
 const stewieProps = {
     image: stewie,
     heading: "Stewie the cat",
-    attributes: ["Adopted by Frank at the age of 6 weeks", 
+    attributes: ["Adopted by me at the age of 6 weeks", 
     "Pooped on the floor only once", 
     "Will bite your ass off", 
     "Still an absolute cutie", 
