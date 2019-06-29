@@ -1,27 +1,58 @@
 import React from 'react';
-import { Jumbo } from '../reusables/Jumbo';
-import { ImageGallery } from 'react-image-gallery';
-import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+import Gallery from 'react-grid-gallery';
+import '../../css/gallery.css'
+
 
 export const Stewie = (props) => {
     const images = [
         {
-          original: 'http://lorempixel.com/1000/600/nature/1/',
-          thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+            src: 'https://i.imgur.com/8vkcKhU.jpg',
+            thumbnail: 'https://i.imgur.com/8vkcKhU.jpg'
         },
         {
-          original: 'http://lorempixel.com/1000/600/nature/2/',
-          thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+            src: 'https://i.imgur.com/VmVYrPJ.jpg',
+            thumbnail: 'https://i.imgur.com/VmVYrPJ.jpg'
         },
         {
-          original: 'http://lorempixel.com/1000/600/nature/3/',
-          thumbnail: 'http://lorempixel.com/250/150/nature/3/'
-        }
-      ];
+            src: 'https://i.imgur.com/sJvPWiy.jpg',
+            thumbnail: 'https://i.imgur.com/sJvPWiy.jpg'
+        },
+        {
+            src: 'https://i.imgur.com/rKmEGqP.jpg',
+            thumbnail: 'https://i.imgur.com/rKmEGqP.jpg'
+        },
+        {
+            src: 'https://i.imgur.com/p2vXWYc.jpg',
+            thumbnail: 'https://i.imgur.com/p2vXWYc.jpg'
+        },
+        {
+            src: 'https://i.imgur.com/1hFnYBr.jpg',
+            thumbnail: 'https://i.imgur.com/1hFnYBr.jpg'
+        },
+        {
+            src: 'https://i.imgur.com/RlUDJ1d.jpg',
+            thumbnail: 'https://i.imgur.com/RlUDJ1d.jpg'
+        },
+        {
+            src: 'https://i.imgur.com/09VVulg.jpg',
+            thumbnail: 'https://i.imgur.com/09VVulg.jpg'
+        },
+        {
+            src: 'https://i.imgur.com/rPyQ4t0.jpg',
+            thumbnail: 'https://i.imgur.com/rPyQ4t0.jpg'
+        },
+        {
+            src: 'https://i.imgur.com/PRCw9fk.jpg',
+            thumbnail: 'https://i.imgur.com/PRCw9fk.jpg'
+        },
+    ]
 
-    return(
-        <div>
-            <ImageGallery items={images} />
+    return (
+        <div className="page-container">
+            <div className="content-wrap">
+                <h3>Stewie the cat</h3>
+                <div className="gallery"><Gallery images={images} /></div>
+            </div>
         </div>
     )
 }

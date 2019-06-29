@@ -6,7 +6,7 @@ import '../css/footer.css'
 
 export const Footer = (props) => {
     return (
-        <div className="Footer">
+        <div className="footer">
             <About />
             <p>Frank Li 2019</p>
             <a href="https://github.com/frankisawesome"><GoMarkGithub /></a>

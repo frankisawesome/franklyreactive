@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Navbar } from './Nav';
 import { Home } from './pages/Home';
 import { Proj } from './pages/Projects';
-import { Stewie } from './pages/Stewie';
+import { Stewie }  from './pages/Stewie';
 import { Footer } from './Footer';
 import { Resume } from './pages/Resume'; 
 
