@@ -17,7 +17,7 @@ function App() {
   const navProps = [
     {name: "Frank", path: "/"},
     {name: "Projects", path: "/projects/"},
-    {name: "Stewie", path:"/stewie/"},
+    {name: "Cat", path:"/stewie/"},
     {name: "Resume", path:"/resume/"}
   ]
 
