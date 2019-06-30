@@ -3,6 +3,7 @@ import React from 'react';
 //Reusable Components
 import { Jumbo } from '../reusables/Jumbo';
 import { Showcase } from '../reusables/Showcase';
+import { Hero } from '../reusables/Hero';
 
 //Photos
 import myhead from '../../images/myhead.jpg';
@@ -13,6 +14,7 @@ export const Home = () => {
     //Render
     return(
         <div>
+            <Hero />
             <Showcase {...showcaseProps}/>
             <Jumbo {...jumboProps}/>
             <Showcase {...stewieProps} />
@@ -52,6 +54,6 @@ const stewieProps = {
 const projectProps = {
     title: "My Projects",
     subtext: "I've worked on a number of projects for university course work and just hobby. Please check them out, some of them are cool, well, most of them.",
-    buttonLink: "",
+    buttonLink: "/projects/",
     buttonText: "Learn More"
 }
