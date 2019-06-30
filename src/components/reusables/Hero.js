@@ -1,16 +1,28 @@
-import React from 'react';
-import LazyHero from 'react-lazy-hero';
+import React, { useState } from 'react';
+
+//Internal imports
 import img from '../../images/hero.jpg';
 import '../../css/Hero.css'
 
+//Libraries
+import LazyHero from 'react-lazy-hero';
+import FormControl from 'react-bootstrap/FormControl'
+
 export const Hero = (props) => {
-    return(
+    const [message, setMessage] = useState("Write your own inspiration");
+
+    return (
         <LazyHero imageSrc={img}
-        opacity={0.4}
-        className="hero"
-        color="#A7886A"
+            opacity={0.4}
+            className="hero"
+            color="#A7886A"
         >
-            <h1>Acid Reflux is a Bitch</h1>
+            <h1>{message}</h1>
+            <FormControl
+                value = {message}
+                onChange = {(e) => setMessage(e.target.value)}
+                className="input"
+            />
         </LazyHero>
     )
 }
