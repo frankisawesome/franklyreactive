@@ -21,7 +21,9 @@ export const Hero = () => {
         >
             {finished ? <h1>{message}</h1> : null}
             {finished ? null :
-                <Typing onFinishedTyping={() => setFinished(true)} hideCursor={true}>
+                <Typing
+                    onFinishedTyping={() => setFinished(true)}
+                    hideCursor={true}>
                     <h1>{message}</h1>
                 </Typing>}
             <FormControl
