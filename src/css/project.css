@@ -1,3 +1,20 @@
 .carousel-caption {
     color: #F26363;
 }
+
+.projtron {
+    background-color: #1A6DD9;
+    border-radius: 0;
+    margin: 0;
+    min-height: 50vh;
+}
+
+.github {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.github:hover {
+    color: #D97925;
+}

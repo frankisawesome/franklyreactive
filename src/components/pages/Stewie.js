@@ -10,13 +10,13 @@ import LazyHero from 'react-lazy-hero';
 export const Stewie = () => {
     return (
         <div>
-                <LazyHero imageSrc={img}
+            <LazyHero imageSrc={img}
                 opacity={0.4}
                 className="hero"
                 color='#A7886A'>
-                    <h1>Stewie the cat.</h1>
+                <h1>Stewie the cat.</h1>
             </LazyHero>
-                <Gallery images={images}/>
+            <Gallery images={images} />
         </div>
     )
 }
