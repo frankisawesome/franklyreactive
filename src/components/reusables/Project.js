@@ -35,10 +35,6 @@ export const Project = (props) => {
                             src={slide.src}
                             alt={slide.title}
                         />
-                        <Carousel.Caption>
-                            <h3>{slide.label}</h3>
-                            <p>{slide.caption}</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
 
                 ))}

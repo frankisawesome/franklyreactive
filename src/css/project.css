@@ -18,3 +18,7 @@
 .github:hover {
     color: #D97925;
 }
+
+.jumbotron img {
+    max-width: 100%
+}
