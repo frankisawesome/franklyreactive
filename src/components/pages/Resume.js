@@ -9,8 +9,9 @@ export const Resume = () => {
         <div className="resumecont">
             {loading ? <Spinner animation="grow" variant="info" /> : null}
             <iframe 
+            title="resume"
             className="resume" 
-            src="https://drive.google.com/file/d/1s1VLI_Pzyq_oIOG00_XD67PHonwo0qfH/preview"
+            src="https://drive.google.com/file/d/1s1VLI_Pzyq_oIOG00_XD67PHonwo0qfH/preview" 
             onLoad={() => setLoading(false)}
             ></iframe>
         </div>
