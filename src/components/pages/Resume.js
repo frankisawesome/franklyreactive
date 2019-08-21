@@ -11,7 +11,7 @@ export const Resume = () => {
             <iframe 
             title="resume"
             className="resume" 
-            src="https://drive.google.com/file/d/1s1VLI_Pzyq_oIOG00_XD67PHonwo0qfH/preview" 
+            src="https://drive.google.com/file/d/19e-k77LrI3G7BZDhujwrUHEqApRjN4hs/preview" 
             onLoad={() => setLoading(false)}
             ></iframe>
         </div>
